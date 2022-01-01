@@ -19,10 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\linked_lists\delete_middle_node.cpp" />
+    <ClCompile Include="src\linked_lists\partition.cpp" />
+    <ClCompile Include="src\linked_lists\remove_dups.cpp" />
+    <ClCompile Include="src\linked_lists\return_Kth_tolast.cpp" />
     <ClCompile Include="src\preliminary\engine.cpp" />
-    <ClCompile Include="src\preliminary\stack.cpp" />
+    <ClCompile Include="src\preliminary\bst.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\linked_lists\delete_middle_node.h" />
+    <ClInclude Include="src\linked_lists\partition.h" />
+    <ClInclude Include="src\linked_lists\remove_dups.h" />
+    <ClInclude Include="src\linked_lists\return_Kth_tolast.h" />
+    <ClInclude Include="src\preliminary\bst.h" />
     <ClInclude Include="src\preliminary\stack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

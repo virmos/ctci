@@ -1,8 +1,8 @@
 #include<iostream>
-#include "stack.cpp"
-using namespace std;
+#include "stack.h"
+#include "bst.h"
 
-void test_stack();
+using namespace std;
 
 void test_stack()
 {
@@ -41,11 +41,23 @@ void test_stack()
   for (j = 1; j <= 6; j++)
     cout << stack2.pop() << endl;
   cout << endl << endl;
+};
+
+void test_bst()
+{
+  Node* root = nullptr;
+  add_node(&root, 2, "2");
+  add_node(&root, 1, "1");
+  add_node(&root, 0, "0");
+  add_node(&root, 3, "3");
+  add_node(&root, 5, "5");
+  add_node(&root, 4, "4");
+  add_node(&root, 6, "6");
+  printBST(root);
 }
 
-int main()
+int main() 
 {
   test_stack();
   return 0;
 }
-
